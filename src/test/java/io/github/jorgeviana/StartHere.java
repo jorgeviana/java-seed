@@ -1,13 +1,13 @@
 package io.github.jorgeviana;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.fail;
 
-public class StartHere {
+class StartHere {
 
     @Test
-    public void failing_test() {
+    void failing_test() {
         fail("fix me!");
     }
 }

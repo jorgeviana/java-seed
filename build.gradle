@@ -3,9 +3,13 @@ plugins {
 }
 
 dependencies {
-    testCompile 'junit:junit:4.12'
+    testCompile 'org.junit.jupiter:junit-jupiter:5.4.0'
 }
 
 repositories {
     jcenter()
+}
+
+test {
+    useJUnitPlatform()
 }
