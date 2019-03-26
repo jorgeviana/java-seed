@@ -5,7 +5,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class StartHere {
+class ParameterizedTestExample {
 
     @ParameterizedTest(name = "{index}: the max of {0} and {1} is {2}")
     @CsvSource({
